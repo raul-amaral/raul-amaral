@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/n1604206/public_html/raulamaral.com
+    - /bin/cp * $DEPLOYPATH
