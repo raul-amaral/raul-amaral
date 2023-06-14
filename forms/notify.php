@@ -33,8 +33,18 @@
   );
   */
 
+  $contact->smtp = array(
+    'host' => 'https://dadus-suku.online/',
+    'username' => 'campoalor@dadus-suku.online',
+    'password' => 'YEm905&dXz~q',
+    'port' => '465'
+  );
+
+
   $contact->add_message( $_POST['name'], 'Name');
+  $contact->add_message( $_POST['subject'], 'Subject');
   $contact->add_message( $_POST['email'], 'Email');
+  $contact->add_message( $_POST['body'], 'Body');
 
   echo $contact->send();
 ?>

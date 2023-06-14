@@ -201,6 +201,7 @@ h6,
   width: 250px;
   height: 40px;
   margin: 0 8px;
+  margin-top: 40px;
 }
 
 #hero .php-email-form button[type=submit] {

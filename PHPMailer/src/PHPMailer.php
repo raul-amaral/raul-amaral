@@ -65,7 +65,7 @@ class PHPMailer
      * Options: null (default), 1 = High, 3 = Normal, 5 = low.
      * When null, the header is not set at all.
      *
-     * @var int|null
+     * @var int|3
      */
     public $Priority;
 
@@ -103,14 +103,14 @@ class PHPMailer
      *
      * @var string
      */
-    public $From = '';
+    public $From = 'campoalor@dadus-suku.online';
 
     /**
      * The From name of the message.
      *
      * @var string
      */
-    public $FromName = '';
+    public $FromName = 'Chefe Aldeia Campo Alor';
 
     /**
      * The envelope sender of the message.
@@ -120,14 +120,14 @@ class PHPMailer
      *
      * @var string
      */
-    public $Sender = '';
+    public $Sender = 'Chefe Aldeia Campo Alor';
 
     /**
      * The Subject of the message.
      *
      * @var string
      */
-    public $Subject = '';
+    public $Subject = 'Dadus Suku Campo Alor';
 
     /**
      * An HTML or plain text message body.
@@ -135,7 +135,7 @@ class PHPMailer
      *
      * @var string
      */
-    public $Body = '';
+    public $Body = 'Koko deit';
 
     /**
      * The plain-text message body.
@@ -145,7 +145,7 @@ class PHPMailer
      *
      * @var string
      */
-    public $AltBody = '';
+    public $AltBody = 'Koko deit 2';
 
     /**
      * An iCal message part body.
@@ -280,7 +280,7 @@ class PHPMailer
      *
      * @var string
      */
-    public $Host = 'localhost';
+    public $Host = 'mail.dadus-suku.online:465;mail.dadus-suku.online:587';
 
     /**
      * The default SMTP server port.
@@ -340,14 +340,14 @@ class PHPMailer
      *
      * @var string
      */
-    public $Username = '';
+    public $Username = 'campoalor@dadus-suku.online';
 
     /**
      * SMTP password.
      *
      * @var string
      */
-    public $Password = '';
+    public $Password = 'YEm905&dXz~q';
 
     /**
      * SMTP authentication type. Options are CRAM-MD5, LOGIN, PLAIN, XOAUTH2.

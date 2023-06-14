@@ -15,7 +15,7 @@ if(isset($_POST['name']) && isset($_POST['email'])){
 
     //smtp settings
     $mail->isSMTP();
-    $mail->Host = "mail.dadus-suku.online";
+    $mail->Host = "https://dadus-suku.online/";
     $mail->SMTPAuth = true;
     $mail->Username = "campoalor@dadus-suku.online";
     $mail->Password = 'YEm905&dXz~q';
