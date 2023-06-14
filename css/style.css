@@ -432,8 +432,9 @@ a:focus {
 .section-header p {
     display: inline-block;
     margin: 0 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     padding-left: 15px;
+    padding-top: 30px;
     position: relative;
     font-size: 16px;
     font-weight: 600;
@@ -446,7 +447,7 @@ a:focus {
     position: absolute;
     content: "";
     height: 3px;
-    top: 11px;
+    top: 40px;
     right: 0;
     left: -30px;
     background: #82ef23f2;
@@ -458,7 +459,7 @@ a:focus {
     content: "";
     width: 3px;
     height: 3px;
-    top: 11px;
+    top: 40px;
     left: 3px;
     background: #82ef23f2;
     z-index: 1;
@@ -492,7 +493,7 @@ a:focus {
 }
 
 .about .section-header {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .about .about-img {
