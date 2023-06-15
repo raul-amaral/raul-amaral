@@ -34,7 +34,7 @@
   */
 
   $contact->smtp = array(
-    'host' => 'https://dadus-suku.online/',
+    'host' => 'https://www.dadus-suku.online/',
     'username' => 'campoalor@dadus-suku.online',
     'password' => 'YEm905&dXz~q',
     'port' => '465'

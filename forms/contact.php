@@ -26,7 +26,7 @@
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
 
   $contact->smtp = array(
-    'host' => 'https://dadus-suku.online/',
+    'host' => 'https://www.dadus-suku.online/',
     'username' => 'campoalor@dadus-suku.online',
     'password' => 'YEm905&dXz~q',
     'port' => '465'
