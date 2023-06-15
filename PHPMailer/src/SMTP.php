@@ -31,7 +31,7 @@ $mail = new PHPMailer(true);
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
         $mail->Username   = 'campoalor@dadus-suku.online';                     //SMTP username
         $mail->Password   = 'YEm905&dXz~q';                               //SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
@@ -41,7 +41,7 @@ $mail = new PHPMailer(true);
     $mail->addAddress($_POST['email'], $_POST['name']);
     // $mail->addAddress('ellen@example.com');               //Name is optional
     // $mail->addReplyTo('$_POST$email', 'Information'); 
-    $mail->addReplyTo( $_POST['email'], $_POST['name']);
+    // $mail->addReplyTo( $_POST['email'], $_POST['name']);
     $mail->addCC('marlora010121@gmail.com');
     $mail->addBCC('maria.viana.belo@gmail.com');
 
