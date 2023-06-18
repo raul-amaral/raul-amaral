@@ -760,7 +760,7 @@ a:focus {
 .service .service-icon {
     position: relative;
     width: 150px;
-    min-height: 150px;
+    min-height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -770,7 +770,7 @@ a:focus {
 
 .service .service-icon i {
     position: relative;
-    font-size: 60px;
+    font-size: 40px;
     color: #3dfbb5;
     transition: .3s;
 }
@@ -781,8 +781,8 @@ a:focus {
 
 .service .service-text {
     position: relative;
-    width: calc(100% - 120px);
-    padding: 0 30px;
+    width: calc(300% - 150px);
+    padding: 0 15px;
 }
 
 .service .service-text h3 {
@@ -794,7 +794,7 @@ a:focus {
 
 .service .service-text p {
     margin: 0;
-    font-size: 16px;
+    font-size: 15px;
     transition: 1s;
 }
 
