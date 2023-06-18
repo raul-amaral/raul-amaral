@@ -514,6 +514,7 @@ a:focus {
 
 .about .about-text p {
     font-size: 16px;
+    text-align: justify;
 }
 
 .about .skills {
@@ -783,6 +784,7 @@ a:focus {
     position: relative;
     width: calc(300% - 150px);
     padding: 0 15px;
+    text-align: justify;
 }
 
 .service .service-text h3 {
