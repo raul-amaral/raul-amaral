@@ -163,7 +163,37 @@ a:focus {
     font-weight: 700;
     letter-spacing: 2px;
     transition: .5s;
+}
 
+@media (max-width: 575.98px) {
+    .navbar .navbar-brand {
+        margin: 0;
+        font-size: 48px;
+        line-height: 0px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        transition: .5s;
+        font-family: 'Tangerine', serif;
+        text-shadow: 4px 4px 4px #aaa;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .raul {
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width: 575.98px) {
+
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .nav-link {
+        padding: 5px 5px 4px 5px;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 400;
+    }
 }
 
 .navbar .navbar-brand img {
